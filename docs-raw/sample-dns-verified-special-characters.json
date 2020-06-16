@@ -1,0 +1,54 @@
+{
+  "id": "SGCNM21566325",
+  "$template": {
+    "name": "CERTIFICATE_OF_NON_MANIPULATION",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://demo-cnm.openattestation.com"
+  },
+  "issuers": [
+    {
+      "name": "DEMO STORE",
+      "documentStore": "0x8Fc57204c35fb9317D91285eF52D6b892EC08cD3",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "example.openattestation.com"
+      }
+    }
+  ],
+  "recipient": {
+    "name": "SG FREIGHT",
+    "address": {
+      "street": "101 ORCHARD ROAD",
+      "country": "SINGAPORE"
+    }
+  },
+  "consignment": {
+    "description": "16667 CARTONS OF RED WINE 🍷",
+    "quantity": {
+      "value": 5000,
+      "unit": "LITRES"
+    },
+    "countryOfOrigin": "AUSTRALIA",
+    "outwardBillNo": "AQSIQ170923130",
+    "dateOfDischarge": "2018-01-26",
+    "dateOfDeparture": "2018-01-30",
+    "countryOfFinalDestination": "CHINA",
+    "outgoingVehicleNo": "COSCO JAPAN 074E/30-JAN",
+    "someRandomTestData": [
+      "This text block has some HTML special characters :@+.-$%^&*",
+      "foo://example.com:8042/over/there?name=ferret#nose",
+      "urn:example:animal:ferret:nose",
+      "区块链"
+    ]
+  },
+  "declaration": {
+    "name": "PETER LEE",
+    "designation": "SHIPPING MANAGER",
+    "date": "2018-01-28"
+  },
+  "certification": {
+    "name": "DEMO JOHN TAN",
+    "designation": "DEMO",
+    "date": "2018-01-28"
+  }
+}
