@@ -1,0 +1,22 @@
+{
+  "name": "tradetrust-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjj/tradetrust-docs.git"
+  },
+  "author": "Goi Jia Jian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gjj/tradetrust-docs/issues"
+  },
+  "homepage": "https://github.com/gjj/tradetrust-docs#readme",
+  "dependencies": {
+    "@govtechsg/open-attestation": "^3.8.1"
+  }
+}
